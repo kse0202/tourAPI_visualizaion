@@ -1,9 +1,9 @@
 # tourAPI_visualizaion
-Data collecting with API and visualization using matplot, folium
+Data collecting with API and visualization using `matplot`, `folium`
 
-* 한국관광공사에서 제공하는 tourAPI를 이용하여 2019년의 축제 및 행사들의 정보를 수집하고, 시각화했습니다. 
+* 한국관광공사에서 제공하는 tourAPI를 이용하여 2019년의 축제 및 행사들의 데이터를 수집하고, 시각화했습니다. 
 * `matplot` 라이브러리를 이용하여 그래프를 그리고 데이터의 특성을 파악했습니다. 
-* SouthKorea 깃허브에서 제공하는 `GeoJson`과 `folium.Choropleth` , `MarkerCluster()` , `folium.marker` 를 이용하여다양한 시각화를 했습니다.
+* SouthKorea 깃허브에서 제공하는 `GeoJson`과 `folium.Choropleth` , `MarkerCluster()` , `folium.marker` 를 이용하여 다양한 시각화를 했습니다.
 * 서울의 시각화를 위해 편집한 데이터를 함께 올립니다. `geo_data/skorea-municipalities-2018-geo-seoul2.json`
 
 ## Language
