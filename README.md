@@ -1,5 +1,10 @@
 # tourAPI_visualizaion
-Data collecting with API and visualization using matplot, folium 
+Data collecting with API and visualization using matplot, folium
+
+* 한국관광공사에서 제공하는 tourAPI를 이용하여 2019년의 축제 및 행사들의 정보를 수집하고, 시각화했습니다. 
+* `matplot` 라이브러리를 이용하여 그래프를 그리고 데이터의 특성을 파악했습니다. 
+* SouthKorea 깃허브에서 제공하는 `GeoJson`과 `folium.Choropleth` , `MarkerCluster()` , `folium.marker` 를 이용하여다양한 시각화를 했습니다.
+* 서울의 시각화를 위해 편집한 데이터를 함께 올립니다. `geo_data/skorea-municipalities-2018-geo-seoul2.json`
 
 ## Language
 Python 3.7.4  
@@ -8,7 +13,7 @@ Python 3.7.4
 
 #### matplot을 이용한 시각화
 ![ex_screenshot](./img/month_readcounts.png)  
-봄(3,4월)과 가을(9, 10월)에 행사 수가 많다.    
+봄(3,4월)과 가을(9, 10월)에 행사 수가 많은 것을 알 수 있다.     
 여름(6, 7월)의 행사에 대한 페이지 뷰의 평균이 높은걸로 보아 여름에 하는 행사에 대한 관심이 많다는 것을 알 수 있다.     
 
 
@@ -25,9 +30,7 @@ folium의 Choropleth 이용한 지역별 행사 수 시각화
 folium의 markerCluster 이용한 지역별 행사 수 clustering 시각화   
 
 ![ex_screenshot](./img/seoul_geojson.jpg)   
-GeoJson을 이용하여 서울의 구를 지도에 표시했다.  
-SouthKorea github에서 받은 skorea-municipalities-2018-geo.json을 이용했다.  
-서울의 구만 추려 만든 GeoJson 파일을 만들었다.  
+GeoJson을 이용한 서울의 구 지도 시각화
 
 ![ex_screenshot](./img/seoul_chor.jpg)  
 folium의 Choropleth 이용한 서울의 구별 행사 수 시각화  
