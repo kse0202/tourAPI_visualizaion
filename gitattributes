@@ -20,10 +20,12 @@
 *.pyo    binary
 
 # python
-*.ipynb  text
+*.ipynb  text diff=python
 
 # Note: .db, .p, and .pkl files are associated
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
-public/*.python linguist-vendored
+* linguist-vendored
+
+*.python linguist-vendored=false
