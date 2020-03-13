@@ -27,6 +27,6 @@
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
 
-* linguist-vendored
 
-*.ipynb linguist-vendored=Python
+
+*.ipynb linguist-vendored=python
