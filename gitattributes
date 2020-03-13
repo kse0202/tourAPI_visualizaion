@@ -19,7 +19,7 @@
 *.pyd    binary
 *.pyo    binary
 
-# Jupyter notebook
+# python
 *.ipynb  text
 
 # Note: .db, .p, and .pkl files are associated
