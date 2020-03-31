@@ -9,7 +9,7 @@ Data collecting with API and visualization using `matplot`, `folium`
 ## Language
 Python 3.7.4  
 
-## ScreenShot
+## Summary
 
 #### matplot을 이용한 시각화
 ![ex_screenshot](./img/month_readcounts.png)  
