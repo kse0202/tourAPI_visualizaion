@@ -72,7 +72,7 @@ korea_center = [35.95, 128.25]
 map = folium.Map(location=seoul_center, zoom_start=7)
 folium.GeoJson(geo_str_pro, name='provinces').add_to(map)
 
-marker_cluster = MarkerCluster().add_to(map) # create marker clusters # MarkerCluster를 map에 추가
+marker_cluster = MarkerCluster().add_to(map) # MarkerCluster를 map에 추가
 
 for n in range(df_2019_final.shape[0]):
     location = [df_2019_final["mapy"][n],df_2019_final["mapx"][n]]
